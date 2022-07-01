@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 12vh;
+    background-color: #2874f0
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: yellowgreen;
+    font-weight: bold;
+}
+header{
+    height: 80px;
+    background-color: #2874f0
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 10px 0 500px;
+    background-image: url("../images/search.webp");
+    background-position: right center;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+.container{
+    min-height: calc(100vh - 12vh - 80px);
+}
+.slider{
+    margin: 12px auto;
+width: 80vw;
+}
+div.book-item{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
